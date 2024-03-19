@@ -1,0 +1,38 @@
+.quotes-container {
+    background: linear-gradient(135deg, #9c27b0, #673ab7, #3f51b5); /* Same gradient as the home page */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Same font as the home page */
+}
+
+.quotes-container p {
+    font-size: 20px;
+    margin: 0 20px; /* Adjust margins as needed */
+}
+.quotes-container h1 {
+    font-size: 108px;
+    margin-top: 10%; /* Adjust the title position */
+    margin-bottom: 30px;
+}
+
+.search-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    margin: 20px 0; /* Spacing above and below the button */
+}
+
+.quote {
+    font-size: 18px;
+    margin: 10px 20px; /* Spacing around quotes */
+    color: white; /* Adjust color as needed */
+}
